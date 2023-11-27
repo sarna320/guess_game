@@ -1,5 +1,5 @@
 import random
-
+import art
 
 def guess(number):
     if number == number_to_guess:
@@ -13,7 +13,7 @@ def guess(number):
     print("Guess again")
     return False
 
-
+print(art.logo)
 print("Welcom to the Number Guessing Game!")
 print("I am thinking of a number between 1 and 100")
 difficulty = input("Chose a difficluty. Type 'easy' or 'hard': ")
